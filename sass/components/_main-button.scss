@@ -1,0 +1,17 @@
+.main-button {
+  @include centeredFlex(inline-flex);
+  @include font(16px, 700, 30px, 0.06em);
+  width: 200px;
+  padding: 10px;
+
+  background-color: var(--accent-color);
+  color: var(--dark-bg-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition: background-color var(--transition-duration) var(--transition-timing-function);
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
+}

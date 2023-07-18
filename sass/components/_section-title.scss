@@ -1,0 +1,12 @@
+.section__title {
+  margin-bottom: 30px;
+
+  @include font(28px, 700, 33px);
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+
+    @include font(36px, 700, 42px);
+  }
+}
